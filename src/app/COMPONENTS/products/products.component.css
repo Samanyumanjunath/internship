@@ -1,0 +1,43 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+  
+  .product {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+    text-align: center;
+    
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  .product-title {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+   
+  }
+  
+  .product-price {
+    font-weight: bold;
+    
+  }
+  
+  @media (max-width: 600px) {
+    .product {
+      padding: 0.5rem;
+    }
+  
+    .product-title {
+      font-size: 0.8rem;
+    }
+  }
+  
